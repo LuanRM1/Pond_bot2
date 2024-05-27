@@ -1,0 +1,21 @@
+[5.236s] Invoking command in '/home/grupo4/main_ws/src/new_bringup': PYTHONPATH=/home/grupo4/main_ws/build/new_bringup/prefix_override:/home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_bringup build --build-base /home/grupo4/main_ws/build/new_bringup/build install --record /home/grupo4/main_ws/build/new_bringup/install.log --single-version-externally-managed install_data
+[6.602s] running egg_info
+[6.606s] writing ../../build/new_bringup/new_bringup.egg-info/PKG-INFO
+[6.607s] writing dependency_links to ../../build/new_bringup/new_bringup.egg-info/dependency_links.txt
+[6.608s] writing entry points to ../../build/new_bringup/new_bringup.egg-info/entry_points.txt
+[6.610s] writing requirements to ../../build/new_bringup/new_bringup.egg-info/requires.txt
+[6.611s] writing top-level names to ../../build/new_bringup/new_bringup.egg-info/top_level.txt
+[6.620s] reading manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'
+[6.626s] writing manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'
+[6.628s] running build
+[6.629s] running build_py
+[6.631s] running install
+[6.632s] running install_lib
+[6.638s] running install_data
+[6.638s] running install_egg_info
+[6.644s] removing '/home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[6.646s] Copying ../../build/new_bringup/new_bringup.egg-info to /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup-0.0.0-py3.10.egg-info
+[6.653s] running install_scripts
+[6.748s] Installing bringup_manager script to /home/grupo4/main_ws/install/new_bringup/lib/new_bringup
+[6.751s] writing list of installed files to '/home/grupo4/main_ws/build/new_bringup/install.log'
+[6.947s] Invoked command in '/home/grupo4/main_ws/src/new_bringup' returned '0': PYTHONPATH=/home/grupo4/main_ws/build/new_bringup/prefix_override:/home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/new_bringup build --build-base /home/grupo4/main_ws/build/new_bringup/build install --record /home/grupo4/main_ws/build/new_bringup/install.log --single-version-externally-managed install_data

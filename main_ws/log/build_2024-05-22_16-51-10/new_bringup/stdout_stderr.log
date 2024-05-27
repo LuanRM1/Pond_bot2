@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/new_bringup/new_bringup.egg-info
+writing ../../build/new_bringup/new_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/new_bringup/new_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/new_bringup/new_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/new_bringup/new_bringup.egg-info/requires.txt
+writing top-level names to ../../build/new_bringup/new_bringup.egg-info/top_level.txt
+writing manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/grupo4/main_ws/build/new_bringup/build
+creating /home/grupo4/main_ws/build/new_bringup/build/lib
+creating /home/grupo4/main_ws/build/new_bringup/build/lib/new_bringup
+copying new_bringup/bringup_manager.py -> /home/grupo4/main_ws/build/new_bringup/build/lib/new_bringup
+copying new_bringup/__init__.py -> /home/grupo4/main_ws/build/new_bringup/build/lib/new_bringup
+running install
+running install_lib
+creating /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup
+copying /home/grupo4/main_ws/build/new_bringup/build/lib/new_bringup/bringup_manager.py -> /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup
+copying /home/grupo4/main_ws/build/new_bringup/build/lib/new_bringup/__init__.py -> /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup
+byte-compiling /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup/bringup_manager.py to bringup_manager.cpython-310.pyc
+byte-compiling /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/grupo4/main_ws/install/new_bringup/share/ament_index
+creating /home/grupo4/main_ws/install/new_bringup/share/ament_index/resource_index
+creating /home/grupo4/main_ws/install/new_bringup/share/ament_index/resource_index/packages
+copying resource/new_bringup -> /home/grupo4/main_ws/install/new_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/grupo4/main_ws/install/new_bringup/share/new_bringup
+creating /home/grupo4/main_ws/install/new_bringup/share/new_bringup/launch
+copying launch/bringup_launch.py -> /home/grupo4/main_ws/install/new_bringup/share/new_bringup/launch
+running install_egg_info
+Copying ../../build/new_bringup/new_bringup.egg-info to /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bringup_manager script to /home/grupo4/main_ws/install/new_bringup/lib/new_bringup
+writing list of installed files to '/home/grupo4/main_ws/build/new_bringup/install.log'

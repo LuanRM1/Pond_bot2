@@ -1,0 +1,3 @@
+[console_scripts]
+bringup_manager = new_bringup.bringup_manager:main
+

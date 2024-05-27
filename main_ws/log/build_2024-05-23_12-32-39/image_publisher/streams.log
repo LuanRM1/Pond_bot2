@@ -1,0 +1,21 @@
+[5.411s] Invoking command in '/home/grupo4/main_ws/src/image_publisher': PYTHONPATH=/home/grupo4/main_ws/build/image_publisher/prefix_override:/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/grupo4/main_ws/build/image_publisher/build install --record /home/grupo4/main_ws/build/image_publisher/install.log --single-version-externally-managed install_data
+[6.649s] running egg_info
+[6.653s] writing ../../build/image_publisher/image_publisher.egg-info/PKG-INFO
+[6.655s] writing dependency_links to ../../build/image_publisher/image_publisher.egg-info/dependency_links.txt
+[6.656s] writing entry points to ../../build/image_publisher/image_publisher.egg-info/entry_points.txt
+[6.657s] writing requirements to ../../build/image_publisher/image_publisher.egg-info/requires.txt
+[6.657s] writing top-level names to ../../build/image_publisher/image_publisher.egg-info/top_level.txt
+[6.668s] reading manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[6.673s] writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[6.674s] running build
+[6.674s] running build_py
+[6.677s] running install
+[6.678s] running install_lib
+[6.688s] running install_data
+[6.690s] running install_egg_info
+[6.697s] removing '/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[6.699s] Copying ../../build/image_publisher/image_publisher.egg-info to /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info
+[6.707s] running install_scripts
+[6.813s] Installing publisher script to /home/grupo4/main_ws/install/image_publisher/lib/image_publisher
+[6.817s] writing list of installed files to '/home/grupo4/main_ws/build/image_publisher/install.log'
+[7.001s] Invoked command in '/home/grupo4/main_ws/src/image_publisher' returned '0': PYTHONPATH=/home/grupo4/main_ws/build/image_publisher/prefix_override:/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/grupo4/main_ws/build/image_publisher/build install --record /home/grupo4/main_ws/build/image_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.001947] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.002477] (new_bringup) JobQueued: {'identifier': 'new_bringup', 'dependencies': OrderedDict()}
+[0.002708] (image_publisher) JobStarted: {'identifier': 'image_publisher'}
+[0.055664] (new_bringup) JobStarted: {'identifier': 'new_bringup'}
+[0.099120] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.300500] (-) TimerEvent: {}
+[0.401123] (-) TimerEvent: {}
+[0.501708] (-) TimerEvent: {}
+[0.602411] (-) TimerEvent: {}
+[0.703065] (-) TimerEvent: {}
+[0.803657] (-) TimerEvent: {}
+[0.904270] (-) TimerEvent: {}
+[1.004949] (-) TimerEvent: {}
+[1.105549] (-) TimerEvent: {}
+[1.206327] (-) TimerEvent: {}
+[1.307177] (-) TimerEvent: {}
+[1.407832] (-) TimerEvent: {}
+[1.508529] (-) TimerEvent: {}
+[1.609219] (-) TimerEvent: {}
+[1.709873] (-) TimerEvent: {}
+[1.810513] (-) TimerEvent: {}
+[1.911158] (-) TimerEvent: {}
+[2.011872] (-) TimerEvent: {}
+[2.112468] (-) TimerEvent: {}
+[2.213121] (-) TimerEvent: {}
+[2.313746] (-) TimerEvent: {}
+[2.414480] (-) TimerEvent: {}
+[2.515377] (-) TimerEvent: {}
+[2.616512] (-) TimerEvent: {}
+[2.717283] (-) TimerEvent: {}
+[2.817999] (-) TimerEvent: {}
+[2.918749] (-) TimerEvent: {}
+[3.019501] (-) TimerEvent: {}
+[3.120247] (-) TimerEvent: {}
+[3.220927] (-) TimerEvent: {}
+[3.321582] (-) TimerEvent: {}
+[3.422338] (-) TimerEvent: {}
+[3.523126] (-) TimerEvent: {}
+[3.623892] (-) TimerEvent: {}
+[3.724793] (-) TimerEvent: {}
+[3.825478] (-) TimerEvent: {}
+[3.926257] (-) TimerEvent: {}
+[4.027069] (-) TimerEvent: {}
+[4.128283] (-) TimerEvent: {}
+[4.229094] (-) TimerEvent: {}
+[4.329994] (-) TimerEvent: {}
+[4.430768] (-) TimerEvent: {}
+[4.531678] (-) TimerEvent: {}
+[4.632469] (-) TimerEvent: {}
+[4.733122] (-) TimerEvent: {}
+[4.834254] (-) TimerEvent: {}
+[4.935641] (-) TimerEvent: {}
+[5.036405] (-) TimerEvent: {}
+[5.137382] (-) TimerEvent: {}
+[5.240853] (-) TimerEvent: {}
+[5.342721] (-) TimerEvent: {}
+[5.408173] (new_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/new_bringup', 'build', '--build-base', '/home/grupo4/main_ws/build/new_bringup/build', 'install', '--record', '/home/grupo4/main_ws/build/new_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/grupo4/main_ws/src/new_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'grupo4', 'SSH_CLIENT': '10.128.0.47 52256 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/grupo4', 'OLDPWD': '/home/grupo4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'grupo4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/grupo4/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'WarpTerminal', 'ROS_DOMAIN_ID': '86', 'AMENT_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/grupo4/main_ws/build/new_bringup', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.128.0.47 52256 10.128.0.9 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/grupo4/main_ws/build/new_bringup/prefix_override:/home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install/ld08_driver', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[5.434369] (image_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_publisher', 'build', '--build-base', '/home/grupo4/main_ws/build/image_publisher/build', 'install', '--record', '/home/grupo4/main_ws/build/image_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/grupo4/main_ws/src/image_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'grupo4', 'SSH_CLIENT': '10.128.0.47 52256 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/grupo4', 'OLDPWD': '/home/grupo4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'grupo4', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/grupo4/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'WarpTerminal', 'ROS_DOMAIN_ID': '86', 'AMENT_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/grupo4/main_ws/build/image_publisher', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.128.0.47 52256 10.128.0.9 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/grupo4/main_ws/build/image_publisher/prefix_override:/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/grupo4/turtlebot3_ws/install/ld08_driver', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[5.442889] (-) TimerEvent: {}
+[5.543586] (-) TimerEvent: {}
+[5.644239] (-) TimerEvent: {}
+[5.744982] (-) TimerEvent: {}
+[5.845649] (-) TimerEvent: {}
+[5.946293] (-) TimerEvent: {}
+[6.046952] (-) TimerEvent: {}
+[6.147593] (-) TimerEvent: {}
+[6.248228] (-) TimerEvent: {}
+[6.348906] (-) TimerEvent: {}
+[6.449619] (-) TimerEvent: {}
+[6.550269] (-) TimerEvent: {}
+[6.634625] (new_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[6.637690] (new_bringup) StdoutLine: {'line': b'writing ../../build/new_bringup/new_bringup.egg-info/PKG-INFO\n'}
+[6.640263] (image_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[6.641083] (new_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/new_bringup/new_bringup.egg-info/dependency_links.txt\n'}
+[6.641829] (new_bringup) StdoutLine: {'line': b'writing entry points to ../../build/new_bringup/new_bringup.egg-info/entry_points.txt\n'}
+[6.642488] (new_bringup) StdoutLine: {'line': b'writing requirements to ../../build/new_bringup/new_bringup.egg-info/requires.txt\n'}
+[6.643145] (new_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/new_bringup/new_bringup.egg-info/top_level.txt\n'}
+[6.643679] (image_publisher) StdoutLine: {'line': b'writing ../../build/image_publisher/image_publisher.egg-info/PKG-INFO\n'}
+[6.646904] (image_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/image_publisher/image_publisher.egg-info/dependency_links.txt\n'}
+[6.647839] (image_publisher) StdoutLine: {'line': b'writing entry points to ../../build/image_publisher/image_publisher.egg-info/entry_points.txt\n'}
+[6.648844] (image_publisher) StdoutLine: {'line': b'writing requirements to ../../build/image_publisher/image_publisher.egg-info/requires.txt\n'}
+[6.649611] (image_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/image_publisher/image_publisher.egg-info/top_level.txt\n'}
+[6.650411] (-) TimerEvent: {}
+[6.654789] (new_bringup) StdoutLine: {'line': b"reading manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'\n"}
+[6.659471] (new_bringup) StdoutLine: {'line': b"writing manifest file '../../build/new_bringup/new_bringup.egg-info/SOURCES.txt'\n"}
+[6.660612] (image_publisher) StdoutLine: {'line': b"reading manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'\n"}
+[6.661275] (new_bringup) StdoutLine: {'line': b'running build\n'}
+[6.661784] (new_bringup) StdoutLine: {'line': b'running build_py\n'}
+[6.663573] (new_bringup) StdoutLine: {'line': b'running install\n'}
+[6.664897] (image_publisher) StdoutLine: {'line': b"writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'\n"}
+[6.665773] (new_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[6.666340] (image_publisher) StdoutLine: {'line': b'running build\n'}
+[6.666988] (image_publisher) StdoutLine: {'line': b'running build_py\n'}
+[6.668914] (image_publisher) StdoutLine: {'line': b'running install\n'}
+[6.670428] (image_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[6.672707] (new_bringup) StdoutLine: {'line': b'running install_data\n'}
+[6.675669] (new_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.677865] (image_publisher) StdoutLine: {'line': b'running install_data\n'}
+[6.680095] (image_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.682959] (new_bringup) StdoutLine: {'line': b"removing '/home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.684873] (new_bringup) StdoutLine: {'line': b'Copying ../../build/new_bringup/new_bringup.egg-info to /home/grupo4/main_ws/install/new_bringup/lib/python3.10/site-packages/new_bringup-0.0.0-py3.10.egg-info\n'}
+[6.687368] (image_publisher) StdoutLine: {'line': b"removing '/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.689089] (image_publisher) StdoutLine: {'line': b'Copying ../../build/image_publisher/image_publisher.egg-info to /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info\n'}
+[6.692628] (new_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[6.695927] (image_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[6.750705] (-) TimerEvent: {}
+[6.782358] (new_bringup) StdoutLine: {'line': b'Installing bringup_manager script to /home/grupo4/main_ws/install/new_bringup/lib/new_bringup\n'}
+[6.784861] (image_publisher) StdoutLine: {'line': b'Installing publisher script to /home/grupo4/main_ws/install/image_publisher/lib/image_publisher\n'}
+[6.851098] (-) TimerEvent: {}
+[6.859669] (new_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/grupo4/main_ws/build/new_bringup/install.log'\n"}
+[6.864717] (image_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/grupo4/main_ws/build/image_publisher/install.log'\n"}
+[6.951358] (-) TimerEvent: {}
+[7.039174] (new_bringup) CommandEnded: {'returncode': 0}
+[7.051461] (-) TimerEvent: {}
+[7.102664] (new_bringup) JobEnded: {'identifier': 'new_bringup', 'rc': 0}
+[7.107437] (image_publisher) CommandEnded: {'returncode': 0}
+[7.135731] (image_publisher) JobEnded: {'identifier': 'image_publisher', 'rc': 0}
+[7.138301] (-) EventReactorShutdown: {}

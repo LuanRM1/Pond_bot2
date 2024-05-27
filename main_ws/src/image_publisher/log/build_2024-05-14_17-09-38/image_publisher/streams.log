@@ -1,0 +1,37 @@
+[3.790s] Invoking command in '/home/grupo4/visor_robo/src/image_publisher': PYTHONPATH=/home/grupo4/visor_robo/src/image_publisher/build/image_publisher/prefix_override:/home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/image_publisher build --build-base /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build install --record /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/install.log --single-version-externally-managed install_data
+[4.889s] running egg_info
+[4.891s] creating build/image_publisher/image_publisher.egg-info
+[4.891s] writing build/image_publisher/image_publisher.egg-info/PKG-INFO
+[4.893s] writing dependency_links to build/image_publisher/image_publisher.egg-info/dependency_links.txt
+[4.893s] writing entry points to build/image_publisher/image_publisher.egg-info/entry_points.txt
+[4.894s] writing requirements to build/image_publisher/image_publisher.egg-info/requires.txt
+[4.894s] writing top-level names to build/image_publisher/image_publisher.egg-info/top_level.txt
+[4.895s] writing manifest file 'build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[4.902s] reading manifest file 'build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[4.905s] writing manifest file 'build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[4.906s] running build
+[4.906s] running build_py
+[4.907s] creating /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build
+[4.907s] creating /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib
+[4.908s] creating /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib/image_publisher
+[4.908s] copying image_publisher/publisher.py -> /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib/image_publisher
+[4.908s] copying image_publisher/__init__.py -> /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib/image_publisher
+[4.909s] running install
+[4.911s] running install_lib
+[4.914s] creating /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[4.915s] copying /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib/image_publisher/publisher.py -> /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[4.916s] copying /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build/lib/image_publisher/__init__.py -> /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[4.918s] byte-compiling /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher/publisher.py to publisher.cpython-310.pyc
+[4.921s] byte-compiling /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher/__init__.py to __init__.cpython-310.pyc
+[4.921s] running install_data
+[4.922s] creating /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/share/ament_index
+[4.923s] creating /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/share/ament_index/resource_index
+[4.923s] creating /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/share/ament_index/resource_index/packages
+[4.924s] copying resource/image_publisher -> /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/share/ament_index/resource_index/packages
+[4.924s] copying package.xml -> /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/share/image_publisher
+[4.924s] running install_egg_info
+[4.931s] Copying build/image_publisher/image_publisher.egg-info to /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info
+[4.936s] running install_scripts
+[5.016s] Installing publisher script to /home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/image_publisher
+[5.017s] writing list of installed files to '/home/grupo4/visor_robo/src/image_publisher/build/image_publisher/install.log'
+[5.133s] Invoked command in '/home/grupo4/visor_robo/src/image_publisher' returned '0': PYTHONPATH=/home/grupo4/visor_robo/src/image_publisher/build/image_publisher/prefix_override:/home/grupo4/visor_robo/src/image_publisher/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/image_publisher build --build-base /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/build install --record /home/grupo4/visor_robo/src/image_publisher/build/image_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[5.138s] Invoking command in '/home/grupo4/main_ws/src/image_publisher': PYTHONPATH=/home/grupo4/main_ws/build/image_publisher/prefix_override:/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/grupo4/main_ws/build/image_publisher/build install --record /home/grupo4/main_ws/build/image_publisher/install.log --single-version-externally-managed install_data
+[6.589s] running egg_info
+[6.591s] creating ../../build/image_publisher/image_publisher.egg-info
+[6.592s] writing ../../build/image_publisher/image_publisher.egg-info/PKG-INFO
+[6.593s] writing dependency_links to ../../build/image_publisher/image_publisher.egg-info/dependency_links.txt
+[6.594s] writing entry points to ../../build/image_publisher/image_publisher.egg-info/entry_points.txt
+[6.595s] writing requirements to ../../build/image_publisher/image_publisher.egg-info/requires.txt
+[6.595s] writing top-level names to ../../build/image_publisher/image_publisher.egg-info/top_level.txt
+[6.596s] writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[6.604s] reading manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[6.608s] writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[6.608s] running build
+[6.609s] running build_py
+[6.610s] creating /home/grupo4/main_ws/build/image_publisher/build
+[6.610s] creating /home/grupo4/main_ws/build/image_publisher/build/lib
+[6.611s] creating /home/grupo4/main_ws/build/image_publisher/build/lib/image_publisher
+[6.612s] copying image_publisher/publisher.py -> /home/grupo4/main_ws/build/image_publisher/build/lib/image_publisher
+[6.612s] copying image_publisher/__init__.py -> /home/grupo4/main_ws/build/image_publisher/build/lib/image_publisher
+[6.612s] running install
+[6.613s] running install_lib
+[6.617s] creating /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[6.618s] copying /home/grupo4/main_ws/build/image_publisher/build/lib/image_publisher/publisher.py -> /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[6.619s] copying /home/grupo4/main_ws/build/image_publisher/build/lib/image_publisher/__init__.py -> /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher
+[6.622s] byte-compiling /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher/publisher.py to publisher.cpython-310.pyc
+[6.625s] byte-compiling /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher/__init__.py to __init__.cpython-310.pyc
+[6.626s] running install_data
+[6.635s] creating /home/grupo4/main_ws/install/image_publisher/share/ament_index
+[6.636s] creating /home/grupo4/main_ws/install/image_publisher/share/ament_index/resource_index
+[6.636s] creating /home/grupo4/main_ws/install/image_publisher/share/ament_index/resource_index/packages
+[6.637s] copying resource/image_publisher -> /home/grupo4/main_ws/install/image_publisher/share/ament_index/resource_index/packages
+[6.637s] copying package.xml -> /home/grupo4/main_ws/install/image_publisher/share/image_publisher
+[6.638s] running install_egg_info
+[6.638s] Copying ../../build/image_publisher/image_publisher.egg-info to /home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info
+[6.643s] running install_scripts
+[6.738s] Installing publisher script to /home/grupo4/main_ws/install/image_publisher/lib/image_publisher
+[6.745s] writing list of installed files to '/home/grupo4/main_ws/build/image_publisher/install.log'
+[6.890s] Invoked command in '/home/grupo4/main_ws/src/image_publisher' returned '0': PYTHONPATH=/home/grupo4/main_ws/build/image_publisher/prefix_override:/home/grupo4/main_ws/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/grupo4/main_ws/build/image_publisher/build install --record /home/grupo4/main_ws/build/image_publisher/install.log --single-version-externally-managed install_data

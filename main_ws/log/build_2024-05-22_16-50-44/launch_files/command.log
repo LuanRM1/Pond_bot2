@@ -1,0 +1,2 @@
+Invoking command in '/home/grupo4/main_ws/build/launch_files': /usr/bin/cmake /home/grupo4/main_ws/src/launch_files -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grupo4/main_ws/install/launch_files
+Invoked command in '/home/grupo4/main_ws/build/launch_files' returned '1': /usr/bin/cmake /home/grupo4/main_ws/src/launch_files -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grupo4/main_ws/install/launch_files
